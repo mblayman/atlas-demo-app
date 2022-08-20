@@ -41,3 +41,5 @@ luac.out
 
 # Vim
 *.sw*
+
+.luarocks
