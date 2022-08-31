@@ -3,3 +3,7 @@ services:
   app:
     build:
       context: .
+    environment:
+      ATLAS_CONFIG: app.config
+    expose:
+      - "8000"
