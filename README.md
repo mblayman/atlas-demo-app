@@ -15,9 +15,3 @@ with
 ```bash
 luarocks --tree .luarocks make --pin
 ```
-
-## Set Lua buildpack
-
-```
-heroku buildpacks:set https://github.com/mblayman/heroku-buildpack-lua
-```
