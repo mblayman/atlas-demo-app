@@ -1,5 +1,7 @@
 FROM nickblah/lua:5.4.3-luarocks
 
+EXPOSE 8000
+
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake
